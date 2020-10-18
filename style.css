@@ -1,6 +1,6 @@
 body{
     background-color:blueviolet;
 }
-nav ul li{
+.nav ul li{
     display: inline;
 }
