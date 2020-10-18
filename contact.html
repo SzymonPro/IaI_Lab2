@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KontaktRep2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+<nav class="nav">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Quiz</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+    </ul>
+</nav>
+<div id="formularz">
+
+    <form>
+        <fieldset style="border: black;">
+    <legend>Uzupełnij dane:</legend>
+        <label for="imie">Imie:</label><br>
+        <input type="text" id="imie" name="imie" placeholder="Podaj imię:"><br>
+        <label for="nazwisko">Nazwisko</label><br>
+        <input type="text" id="nazwisko" name="nazwisko" placeholder="Podaj nazwisko:"><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Podaj email:"><br>
+
+        <label for="radio">Płeć:</label><br>
+        <input type="radio" id="radio" name="plec" value="Kobieta" checked>Kobieta
+        <input type="radio" id="radio" name="plec" value="Mężczyzna">Mężczyzna<br>
+
+        <label for="opis">Opis:</label><br>
+        <textarea id="opis" rows="4" cols="25">
+        </textarea><br>
+        <label for="wiek">Wiek:</label><br>
+        <input type="number" id="wiek" name="wiek" value="18"><br>
+        <label for="stancywilny">Stan cywilny:</label><br>
+        <select id="stancywilny">
+            <option>Kawaler/Panna</option>
+            <option>Żonaty/Zamężna</option>
+            <option>Rozwiedziony/Rozwiedziona</option>
+            <option>Wdowiec/Wdowa</option>
+            <option>W separacji</option>
+        </select><br>
+
+        <input type="text" name="nazwa" value="Wyczyść">
+        <input type="text" name="nazwa" value="Wyślij">
+        </fieldset>
+    </form>
+</div>
+
+
+</body>
+</html>

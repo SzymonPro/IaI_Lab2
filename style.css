@@ -1,6 +1,19 @@
 body{
-    background-color:blueviolet;
+    background-color:lightblue;
 }
 .nav ul li{
     display: inline;
+}
+#formularz{
+
+    width:300px;
+    font-family: Arial;
+    border: black;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+input{
+    padding:0px;
 }
