@@ -1,5 +1,5 @@
 body{
-    background-color:lightblue;
+    background-color: lightblue;
 }
 .nav ul li{
     display: inline;
@@ -14,6 +14,17 @@ body{
     margin-right: auto;
     text-align: left;
 }
+footer {
+    text-align: center;
+}
 input{
     padding:0px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+.container .row .col-3 i {
+    display: block;
 }
