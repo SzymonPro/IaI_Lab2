@@ -32,3 +32,6 @@ a:hover {
     padding: 20px;
     transition: all 2s;
 }
+iframe{
+    width: 100%;
+}
