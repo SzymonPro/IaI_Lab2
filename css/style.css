@@ -25,6 +25,10 @@ img {
     width: 200px;
     height: 200px;
 }
-.container .row .col-3 i {
-    display: block;
+
+a:hover {
+    background-color: #3134ff;
+    color: #ff2d28;
+    padding: 20px;
+    transition: all 2s;
 }
